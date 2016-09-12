@@ -1,0 +1,8 @@
+<launch>
+  <include
+    file="$(find gazebo_ros)/launch/empty_world.launch" >
+<arg name="world_name" value="$(find argo_gazebo)/worlds/argo.world"/>
+</include>  
+<!-- Spawn argo into Gazebo(Commented) -->
+<node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find argo_description)/urdf/argo_urdf_2.URDF -urdf -x 0 -y 0 -z 1 -model argo_urdf_2" />
+</launch>
