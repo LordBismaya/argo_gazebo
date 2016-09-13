@@ -41,4 +41,17 @@
    Alternatively, to move it via joystick.
 
   * ```roslaunch argo_base_control argo_joy_gazebo.launch```
+  
+  
+**FUTURE MODIFICATIONS**
+------------------------
+
+1. Models to Scale in Solidworks
+2. Models to be more descriptive. 
+  * Seat color
+  * Logo
+  * Inertia and Mass
+  * Sensor Models
+3. Brake Models to be skid steer configurations as in ARGO. Currently, differential drive.
+
 
